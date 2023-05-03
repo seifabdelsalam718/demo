@@ -1,0 +1,612 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.first {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 10px 14px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btns {
+    color: white;
+    background-color: #ff7a57;
+    border-color: #ff7a57;
+}
+
+.btns:hover {
+    color: #fff;
+    background-color: #ff5c31;
+    border-color: #ff5224;
+}
+
+.btns3 {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btns3:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+
+.section-title {
+    text-align: center;
+}
+
+.section-title .who {
+    opacity: 40%;
+    font-size: 18px;
+}
+
+.section-title .james {
+    opacity: 70%;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+
+nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0px;
+    box-shadow: 0 3px 8px 5px rgba(128, 128, 128, 0.1);
+    z-index: 999;
+}
+
+nav .first {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .first .picture {
+    width: fit-content;
+}
+
+nav .first .picture i {
+    display: none;
+    font-size: 25px;
+    border: 1px solid lightgrey;
+    height: fit-content;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: grey;
+}
+
+nav .first .picture img {
+    width: 75px;
+}
+
+nav .first .menu ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    display: inline-flex;
+}
+
+nav .first .menu ul li a:hover:not(.active) {
+    color: black;
+}
+
+
+
+nav .first .menu ul li a {
+    text-transform: capitalize;
+    margin: 0px 20px;
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .first .menu a {
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+
+nav .first .menu ul li .active {
+    color: #ff7a57;
+}
+
+
+main {
+    padding-top: 70px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dee2e6;
+}
+
+main .container {
+    height: 100%;
+}
+
+main .first {
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+main .first .name .who,
+main .first .name .james,
+main .first .name .web {
+    color: black;
+    opacity: 70%;
+}
+
+main .first .name .who,
+main .first .name .web {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+main .first .name .james {
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+main .first .name .btns2 {
+    margin: 20px 0px;
+}
+
+main .first .name .btns2 button {
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+main .first .name .icons a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff7a57;
+    color: #ff7a57;
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+main .first .name .icons a:hover {
+    color: white;
+    background-color: #ff7a57;
+}
+
+
+main .first img {
+    width: 620px;
+    align-self: flex-end;
+}
+
+.third {
+    margin: auto;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px 1px rgba(22, 40, 141, 0.3);
+    transform: translateY(-50%);
+}
+
+.third div {
+    width: 30%;
+    text-align: center;
+}
+
+.third .number:not(:last-of-type) {
+    border-right: 1px solid #dee2e6;
+}
+
+.help .second {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.help .second .web {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+.help .second .web .data i {
+    color: #ff7a57;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.help .second .web .data p {
+    opacity: 70%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.help .second .web:hover {
+    background-color: #ff7a57;
+    border: 1px solid #ff7a57;
+
+}
+
+.help .second .web:hover .data i,
+.help .second .web:hover .data p {
+    color: #fff;
+}
+
+
+.Portfolio .second{
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.Portfolio .second .web .img {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.Portfolio .second .web .img .pro1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 121, 87, 0.5);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    transition: top 0.5s ease-out;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.Portfolio .second .web .img .pro1 .pro {
+    text-align: center;
+}
+
+.Portfolio .second .web .img .pro1 p {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.Portfolio .second .web .img .pro1 i {
+    border: 2px solid white;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+}
+
+.Portfolio .second .web .img .pro1 i:hover {
+    background-color: white;
+    color: #ff7a57;
+}
+
+
+.Portfolio .second .web .img:hover .pro1 {
+    top: 0;
+}
+
+.Portfolio .second .web .img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media screen and (min-width:1200px) {
+    main {
+        height: 95vh;
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    main .first img {
+        width: 620px;
+    }
+
+    .third {
+        width: 40%;
+    }
+
+    .Portfolio .second .web {
+        width: 30%;
+    }
+
+    .help .second .web {
+        width: 24%;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    main {
+        height: 95vh;
+    }
+
+    .container {
+        width: 75%;
+    }
+
+    .third {
+        width: 60%;
+    }
+
+    main .first img {
+        width: 500px;
+    }
+
+    .Portfolio .second .web {
+        width: 30%;
+    }
+
+    .help .second .web {
+        width: 24%;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    main {
+        height: 95vh;
+    }
+
+
+    .container {
+        width: 80%;
+    }
+
+    .third {
+        width: 80%;
+    }
+
+    main .first .name {
+        width: 100%;
+    }
+
+    main .first img {
+        display: none;
+    }
+
+    nav {
+        padding-bottom: 20px;
+    }
+
+    nav .first {
+        flex-direction: column;
+    }
+
+    nav .first .menu {
+        display: none;
+    }
+
+    nav .first .picture {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .first .picture i {
+        display: block;
+    }
+
+    nav .first .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    nav .first .menu ul li {
+        margin: 10px 0px;
+        border-bottom: 1px solid grey;
+
+
+    }
+
+    .Portfolio .second .web {
+        width: 48%;
+    }
+
+    .help .second .web {
+        width: 30%;
+    }
+
+
+}
+
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    main {
+        padding: 100px 0;
+    }
+
+
+    .container {
+        width: 85%;
+    }
+
+    .third {
+        width: 90%;
+    }
+
+    main .first .name {
+        width: 100%;
+    }
+
+    main .first img {
+        display: none;
+    }
+
+    nav {
+        padding-bottom: 20px;
+    }
+
+    nav .first {
+        flex-direction: column;
+    }
+
+    nav .first .menu {
+        display: none;
+    }
+
+    nav .first .picture {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav .first .picture i {
+        display: block;
+    }
+
+    nav .first .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    nav .first .menu ul li {
+        margin: 10px 0px;
+        border-bottom: 1px solid grey;
+
+
+    }
+
+    .Portfolio .second .web {
+        width: 100%;
+    }
+
+    .help .second .web {
+        width: 48%;
+    }
+
+
+}
+
+
+@media screen and (max-width:600px) {
+    main {
+        padding: 100px 0;
+    }
+
+    .container {
+        width: 90%;
+
+    }
+
+    .third {
+        width: 90%;
+    }
+
+    main .first .name {
+        width: 100%;
+    }
+
+    main .first img {
+        display: none;
+    }
+
+    nav {
+        padding-bottom: 20px;
+    }
+
+    nav .first {
+        flex-direction: column;
+    }
+
+    nav .first .menu {
+        display: none;
+    }
+
+    nav .first .picture {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav .first .picture i {
+        display: block;
+    }
+
+    nav .first .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    nav .first .menu ul li {
+        margin: 10px 0px;
+        border-bottom: 1px solid grey;
+
+
+    }
+
+    .Portfolio .second .web {
+        width: 100%;
+    }
+
+    .help .second .web {
+        width: 100%;
+    }
+
+}
+
+
